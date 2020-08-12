@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TIIDELAB Signup Form</title>
+</head>
+<body>
+    <div class="container" >   
+        <div class="image_container">
+            <img src="learning_3.png" alt="learning_image">
+        </div>
+
+        <div class="form_container" >
+            <h3>User Registration Form</h3>
+
+            <form action="" onsubmit="processForm()" name="signupform" id="signupform">
+                <input type="text" name="fullname" id="fullname" placeholder="Enter Your Full Name" required>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email Address" required>
+                <input type="text" name="username" id="username" placeholder="Enter Your Username" required>
+                <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
+                <input type="password" name="c_password" id="confirm_password" placeholder="Enter Your Password Again" required>
+                <input type="submit" value="Signup" class="submit">
+            </form>
+    
+        </div>
+
+        <div style="clear: left;">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
