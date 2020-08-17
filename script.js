@@ -1,5 +1,5 @@
 document.querySelector('#signupform').addEventListener('submit',(event)=>{
-    //event.preventDefault()
+    event.preventDefault()
 })
 
 const processForm = () =>{
